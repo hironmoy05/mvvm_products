@@ -16,6 +16,7 @@
 		617687B52A71679800C69A09 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617687B42A71679800C69A09 /* Product.swift */; };
 		617687B72A71684700C69A09 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617687B62A71684700C69A09 /* APIManager.swift */; };
 		617687B92A71712B00C69A09 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617687B82A71712B00C69A09 /* ProductListViewController.swift */; };
+		617687EE2A71802800C69A09 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617687ED2A71802800C69A09 /* ProductViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		617687B42A71679800C69A09 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		617687B62A71684700C69A09 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		617687B82A71712B00C69A09 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		617687ED2A71802800C69A09 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		617687AE2A7166B500C69A09 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				617687ED2A71802800C69A09 /* ProductViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617687EE2A71802800C69A09 /* ProductViewModel.swift in Sources */,
 				61406B5C2A71596000045006 /* AppDelegate.swift in Sources */,
 				617687B52A71679800C69A09 /* Product.swift in Sources */,
 				617687B72A71684700C69A09 /* APIManager.swift in Sources */,
